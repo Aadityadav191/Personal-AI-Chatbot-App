@@ -7,6 +7,7 @@ export default function Chat() {
   return (
     <>
       <Sidebar>
+        
         <Conversation />
       </Sidebar>
     </>

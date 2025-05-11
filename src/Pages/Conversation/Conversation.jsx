@@ -52,7 +52,10 @@ const Conversation = () => {
   };
 
   return (
+    <>
+
     <div className="chatbot-container">
+    <h1 align='center'>What can I help with?</h1>
       <div className="chatbot-messages">
         {messages.map((message, index) => (
           <div 
@@ -94,6 +97,7 @@ const Conversation = () => {
         </button>
       </form>
     </div>
+    </>
   );
 };
 
